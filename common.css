@@ -167,15 +167,14 @@ nav a:hover {
 .banner h2 {
     font-weight: bolder;
     font-size: 51px;
-    font-weight: 500;
     line-height: 1;
     margin-top: -5px;
+    margin-bottom: 10px
 }
 
 .banner p {
     font-size: 35px;
     font-weight: bolder;
-    font-weight: 500;
     line-height: 1;
 }
 
