@@ -202,6 +202,7 @@ nav a:hover {
     background-color: white;
     position: absolute;
     top: 20px;
+    left:0px;
 }
 
 .col span p {
