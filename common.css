@@ -26,6 +26,7 @@
 
 body {
     max-width: 100%;
+    margin: 0 20px;
 }
 
 
@@ -145,21 +146,37 @@ nav a:hover {
     margin: 190px 0;
 }
 
+
+/*
 .text>section:nth-child(1) {
     width: 10px;
     height: 90px;
     margin-right: 5px;
     background-color: #f16d7f;
     font-weight: bolder;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+*/
+
+.text>section:nth-child(2) {
+    padding-left: 10px;
+    border-left: #f16d7f solid 10px;
+    height: 90px;
 }
 
 .banner h2 {
+    font-weight: bolder;
     font-size: 51px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: -5px;
 }
 
 .banner p {
     font-size: 35px;
+    font-weight: bolder;
+    font-weight: 500;
+    line-height: 1;
 }
 
 
@@ -196,19 +213,22 @@ nav a:hover {
 .col>section {
     max-width: 100%;
     position: relative;
+    z-index: 2;
 }
 
 .col span {
     background-color: white;
     position: absolute;
+    z-index: 1;
     top: 20px;
-    left:0px;
+    left: 0px;
 }
 
 .col span p {
     margin: 0 20px;
+    font-weight: bolder;
     text-transform: uppercase;
-    font-weight: 1000;
+    font-weight: 900;
     font-family: Lato;
 }
 
