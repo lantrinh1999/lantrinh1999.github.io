@@ -142,7 +142,7 @@ nav a:hover {
     position: absolute;
     top: 0px;
     left: 0px;
-    margin: 190px 0;
+    margin: 19.4% 0;
 }
 
 
@@ -180,16 +180,40 @@ nav a:hover {
 
 /*-------------- .gallery --------------------*/
 
+.box-text {
+    font-family: Lato;
+}
+
+.box-text h2 {
+    font-weight: bolder;
+    font-size: 26px;
+    text-align: center;
+    text-transform: initial;
+    margin-bottom: 10px
+}
+
+.box-text h3 {
+    font-size: 14px;
+    text-align: center;
+    text-transform: initial;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
 .gallery {
     display: flex;
     max-width: 980px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.gallery>.col {
+    max-width: 49%;
 }
 
 .gallery>.col:nth-child(2) {
-    margin-left: 20px
+    margin-left: 2%
 }
 
 .col img {
@@ -197,7 +221,7 @@ nav a:hover {
 }
 
 .col img:nth-child(1) {
-    margin-bottom: 20px
+    margin-bottom: 2%;
 }
 
 .col>section {
@@ -243,43 +267,67 @@ nav a:hover {
 }
 
 
-/*-------------- sile up --------------------*/
-
-h1 {
-    margin: 0;
-    padding: 100px
-}
+/*-------------- box --------------------*/
 
 .box {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 227px;
-    height: 242px;
-    overflow: hidden;
-    border: 1px solid red;
-    resize: both;
-    position: relative;
-    z-index: 2;
-}
-
-.box {}
-
-.hid-box {
-    top: 100%;
-    position: relative;
-    transition: all .3s ease-out;
-    background: black;
-    z-index: 9999;
-    background-size: 100% 100%;
-    height: 100%;
-}
-
-.box:hover>.hid-box {
-    top: 0;
-}
-
-article {
-    display: flex;
     max-width: 980px;
     margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Lato;
+}
+
+.box .row {
+    max-width: 980px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.box .row .images {
+    max-width: 23%;
+    margin: 0 1%;
+}
+
+.box .row .images>img,
+.box .row .images>section {
+    max-width: 100%;
+}
+
+.box h5,
+.box div {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+}
+
+.images {
+    width: 50%;
+    cursor: pointer;
+}
+
+.box h5 {
+    font-size: 100%;
+}
+
+.box div span img {
+    max-width: 27%;
+}
+
+.box div>span:nth-child(2) {
+    color: #f16d7f;
+    margin-left: 40%;
+}
+
+.box .images:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+.images {
+    transition: all .2s ease-in-out;
+}
+
+.images:hover {
+    transform: scale(1.005);
 }
