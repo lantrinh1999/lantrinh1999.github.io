@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
+    box-sizing: border-box;
+    font-family: Lato;
 }
 
 @font-face {
@@ -34,6 +36,7 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 
 header {
@@ -105,13 +108,19 @@ nav a:hover {
 
 /*----------footer---------*/
 
+footer {
+    background-color: #e6e6e6;
+    text-align: center;
+}
 
-/*----------
+footer .logo {
+    background: white;
+    padding: 20px;
+}
 
-
-
-
----------*/
+footer .footer {
+    padding: 20px;
+}
 
 
 /*------------------------------------*/
@@ -328,7 +337,128 @@ nav a:hover {
     transition: all .2s ease-in-out;
 }
 
-
 .images:hover {
     transform: scale(1.005);
+}
+
+.button {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.button a {
+    padding: 10%;
+    background: #f16d7f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: initial;
+    display: block;
+    text-align: center;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+
+/*-------------- wrap --------------------*/
+
+.wrap {
+    background: #222224;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.wrap-row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="wrap-col-"] {
+    float: left;
+}
+
+
+/* For desktop: */
+
+.wrap-col-1 {
+    width: 68%;
+}
+
+.wrap-col-1 img {
+    margin-top: 5px;
+}
+
+.wrap-col-2 {
+    width: 32%;
+}
+
+.bx {
+    display: flex;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    line-height: 20px;
+}
+
+.wrap-col-2 .aside {
+    padding-top: 2%;
+}
+
+.wrap-col-2 .aside .bx>span:nth-child(2) {
+    margin-left: 7%;
+}
+
+.wrap-col-2 span {
+    color: white;
+    text-align: justify;
+    font-family: Lato;
+}
+
+.wrap-col-2 span h5 {
+    font-size: 17px;
+    margin-bottom: 3%;
+}
+
+.wrap-col-2 span p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 899px) {
+    /* For mobile phones: */
+    [class*="wrap-col-"] {
+        width: 100%;
+    }
+    [class*="wrap-col-1"] {
+        position: relative;
+    }
+    [class*="wrap-col-2"] {
+        position: absolute;
+    }
+    [class*="bx"] {
+        margin-top: 6% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 3% !important;
+        line-height: 20px !important;
+    }
+    [class*="aside"] {
+        padding-top: 1%;
+    }
+}
+
+.bx {
+    transition: all .2s ease-in-out;
+}
+
+.bx:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
