@@ -43,6 +43,10 @@ header {
     border-bottom: grey solid 1px;
 }
 
+body {
+    font-family: Lato;
+}
+
 body .all {
     max-width: 980px;
     margin: 0 auto;
@@ -84,6 +88,10 @@ header span:nth-child(2) {
 nav {
     max-width: 770px;
     margin: 0 auto;
+}
+
+nav::after {
+    border: #222224 solid 1px;
 }
 
 nav li,

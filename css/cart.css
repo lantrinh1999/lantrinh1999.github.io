@@ -1,0 +1,39 @@
+.all-cart {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-14 {
+    text-align: center;
+}
+
+.items .col-14 {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px
+}
+
+div>a {
+    padding: 5px 20px;
+    border: 2px solid #f16d7f;
+    color: #f16d7f;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ca div:nth-child(1) {
+    float: left;
+}
+
+.ca div:nth-child(2) {
+    float: right;
+}

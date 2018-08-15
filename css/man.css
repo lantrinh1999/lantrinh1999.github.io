@@ -1,0 +1,150 @@
+#all {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+/*-------------- wrap-1 --------------------*/
+
+.wrap-1 {
+    display: flex;
+    line-height: 20px;
+    margin-top: 20px;
+    background: #f8f8f8;
+    padding: 20px 0px;
+}
+
+.wrap-1 input[type='checkbox'] {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.wrap-1 .trend {
+    width: 150px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.wrap-1 h2 {
+    padding-bottom: 10px
+}
+
+.wrap-1 td {
+    width: 100px;
+    display: inline-block;
+}
+
+
+/*-------------- wrap-2 --------------------*/
+
+.wrap-2 {
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+
+.wrap-2 a {
+    padding: 5px 20px;
+    border: 2px solid #f16d7f;
+    color: #f16d7f;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.show a {
+    padding: 5px 20px;
+    border: 2px solid #f16d7f;
+    color: #f16d7f;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70%;
+    margin-bottom: 50px;
+}
+
+.box-img>div {
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.box-img img {
+    transition: all .1s ease-in-out;
+}
+
+.wrap-2 a:hover {
+    border: 2px solid #f16d7f;
+    background: #f16d7f;
+    color: white;
+}
+
+.show a:hover {
+    border: 2px solid #f16d7f;
+    background: #f16d7f;
+    color: white;
+}
+
+.row p {
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #f16d7f;
+    font-weight: bold;
+}
+
+.row {
+    line-height: 30px;
+    background: #f6f6f6;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.row h2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price {
+    display: flex;
+}
+
+.viewall {
+    padding: 20px 5px;
+    display: flex;
+    background: transparent !important;
+}
+
+.viewall::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.viewall .col-3 a {
+    margin-left: 40px;
+}
+
+.wrap-3 {
+    max-width: 4000px !important;
+    background: #222325;
+    padding: 40px 10px 10px 10px
+}
+
+.wrap-3 .row {
+    background: #222325;
+    color: #f16d7f;
+}
+
+.wrap-3 .col-4 {
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.col-4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

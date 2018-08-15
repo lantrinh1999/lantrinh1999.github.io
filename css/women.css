@@ -1,0 +1,100 @@
+.wrap-1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.wrap-1>.box {
+    margin: 0 auto;
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    border: #f0f0f0 solid 1px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    [class*="box"] {
+        left: 0px !important;
+    }
+}
+
+.wrap-1>.box::after {
+    clear: both;
+}
+
+.wrap-1 h2 {
+    color: #f16d7f;
+}
+
+.wrap-1 h1 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 18px;
+}
+
+.wrap-1 span {
+    padding: 20px 20px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.wrap-1 .price {
+    color: #f16d7f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wrap-1 a {
+    padding: 10px 25px;
+    border: #f16d7f solid 2px;
+    color: #f16d7f;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.wrap-1 a:hover {
+    color: white;
+    font-size: 19px;
+    background: #f16d7f;
+}
+
+.wrap-2 {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.wrap-2 {
+    background-color: #fafafa;
+    border: #f0f0f0 solid 1px;
+}
+
+.wrap-2 h2 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-left: #f16d7f 5px solid;
+    margin-bottom: 20px;
+}
+
+.wrap-2 p {
+    text-align: justify;
+}
+
+.wrap-3 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrap-3 img {
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+                        .wrap-1,
+                    .wrap-2 {
+                        width: 80%;
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .row {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    
+                    .img:hover {
+                        cursor: pointer;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        font-size: 24px;
+                    }
+                    
+                    .video {
+                        margin: 0 auto;
+                        width: 60%;
+                    }
+                    
+                    .img {
+                        position: relative;
+                    }
+                    
+                    .image {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .overlay {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        overflow: hidden;
+                        width: 100%;
+                        height: 0;
+                        transition: .3s ease;
+                    }
+                    
+                    .img:hover .overlay {
+                        height: 100%;
+                    }
+                    
+                    .text {
+                        color: white;
+                        font-size: 20px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                    }
+                    
+                    .text a {
+                        padding: 5px 20px;
+                        border: 2px solid #f16d7f;
+                        color: #f16d7f;
+                        font-weight: bold;
+                        margin-top: 20px;
+                        text-align: center;
+                        margin-bottom: 50px;
+                        font-size: 20px;
+                    }
+                    
+                    .text a:hover {
+                        border: 2px solid #f16d7f;
+                        background: #f16d7f;
+                        color: white;
